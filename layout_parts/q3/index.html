@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
     <title>基本レイアウト・パーツ</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/css/reset.css">
     <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/css/base.css">
     <link rel="stylesheet" href="css/style.css">
@@ -39,7 +40,56 @@
         <!-- 回答はクラスq3の要素の中に書いてね -->
         <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
         <div class="q3">
-          
+          <table class="q3_th_parent" border="1" width="100%" style="table-layout: fixed;">
+            <tr>
+              <th class="q3_th_child">日付</th>
+              <th class="q3_th_child">朝ごはん</th>
+              <th class="q3_th_child">昼ごはん</th>
+              <th class="q3_th_child">おやつ</th>
+              <th class="q3_th_child">夜ご飯</th>
+              <th class="q3_th_child">夜食</th>
+            </tr>
+            <tr>
+            <td class="q3_td_parent">2016/04/01</td>
+            <td class="q3_td_child_common">食パン</td>
+            <td class="q3_td_child_common">チャーハン</td>
+            <td class="q3_td_child_common">杏仁豆腐</td>
+            <td class="q3_td_child_common">舞茸丼</td>
+            <td class="q3_td_child_common">いちご</td>
+            </tr>
+            <tr>
+              <td class="q3_td_parent">2016/04/02</td>
+              <td class="q3_td_child_common table_gray">なし</td>
+              <td class="q3_td_child_common table_gray">ケバブ丼</td>
+              <td class="q3_td_child_common table_gray">ゼリー</td>
+              <td class="q3_td_child_common table_gray">唐揚げ定食</td>
+              <td class="q3_td_child_common table_gray">いちご</td>
+            </tr>
+            <tr>
+              <td class="q3_td_parent">2016/04/03</td>
+              <td class="q3_td_child_common">納豆ご飯</td>
+              <td class="q3_td_child_common">まぐろ定食</td>
+              <td class="q3_td_child_common">チョコパン</td>
+              <td class="q3_td_child_common">餃子定食</td>
+              <td class="q3_td_child_common">チョコ</td>
+            </tr>
+            <tr>
+              <td class="q3_td_parent border_dashed">2016/04/04</td>
+              <td class="q3_td_child_common border_dashed table_gray">食パン</td>
+              <td class="q3_td_child_common border_dashed table_gray">牛丼</td>
+              <td class="q3_td_child_common border_dashed table_gray">アイス</td>
+              <td class="q3_td_child_common border_dashed table_gray">豚丼</td>
+              <td class="q3_td_child_common border_dashed table_gray">スムージー</td>
+            </tr>
+            <tr>
+              <td class="q3_td_parent">合計カロリー</td>
+              <td class="q3_td_child_common ">10000kcal</td>
+              <td class="q3_td_child_common ">12000kcal</td>
+              <td class="q3_td_child_common ">3000kcal</td>
+              <td class="q3_td_child_common ">30000kcal</td>
+              <td class="q3_td_child_common ">1000kcal</td>
+            </tr>
+          </table>
         </div>
         <!-- 回答はクラスq3の要素の中に書いてね -->
       </div>
