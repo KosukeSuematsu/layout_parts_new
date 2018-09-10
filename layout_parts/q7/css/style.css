@@ -1,5 +1,105 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  font-size:0;
+  clear: both;
+  visibility:hidden;
+}
 
+.float-text-a {
+  width: 205px;
+  font-size: 16px;
+  float: left;
+  margin-right: 50px;
+}
+
+.float-text-b {
+  width: 225px;
+  font-size: 16px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.dtable {
+  display: table;
+  width: 100%;
+}
+
+.dtable_c {
+  display: table-cell;
+  padding-left: 50px;
+  vertical-align: middle;
+}
+
+.dtable_c:first-child {
+  padding-left: 0px;
+}
+
+.kosuke_a {
+  width: 225px;
+  box-sizing: border-box;
+}
+
+.inlineblock_item:first-child {
+  margin-left: 0px;
+}
+
+.inlineblock_item {
+  width: 225px;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin-left: 45px; /* 5px程の間隔がベースの状態で入っている。inline-blockの仕様? */
+}
+
+.flex_box_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+}
+
+.flex_box {
+  width: 225px;
+  box-sizing: border-box;
+}
+
+.inlineblock_margin {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin-left: 45px;
+}
+
+.inlineblock_margin:first-child {
+  margin-left: 0px;
+}
+
+.is-full {
+  overflow: hidden;
+  font-size: 0px;
+}
+
+.stable_inlineblock_margin {
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: top;
+  margin-right: 50px;
+  width: 300px;
+}
+
+.margin_inlineblock_margin {
+  width: 100%;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: -350px;
+  padding-left: 350px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
 /* 回答はここに書いてね */
