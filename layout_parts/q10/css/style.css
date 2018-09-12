@@ -16,6 +16,7 @@
   content: "";
   position: absolute;
   bottom: -45px;
+  right: 470px;
   border: 20px solid white;
   border-top-color: #222;
 }
@@ -24,7 +25,7 @@
   content: "";
   position: absolute;
   bottom: -38px;
-  right: 480px;
+  right: 470px;
   border: 20px solid white;
   border-top-color: #fff;
   border-right-color: rgba(0,0,0,0.0);

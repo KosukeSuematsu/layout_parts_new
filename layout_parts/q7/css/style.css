@@ -59,13 +59,14 @@
 .flex_box_wrapper {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-end;
   align-content: space-between;
 }
 
-.flex_box {
+.flex_box_text {
   width: 225px;
   box-sizing: border-box;
+  vertical-align: middle;
 }
 
 .inlineblock_margin {
