@@ -11,10 +11,6 @@
   background-color: #ECF1F2;
 }
 
-.common_ele:nth-child(-n+8){
-  position: absolute;
-}
-
 .common_ele {
   width: 100px;
   height: 100px;
@@ -22,6 +18,7 @@
   line-height: 100px;
   font-size: 30px;
   font-weight: bold;
+  position: absolute;
 }
 
 .element_01 {
