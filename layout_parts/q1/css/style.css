@@ -6,7 +6,9 @@
   width: 900px;
   padding: 20px;
   background-color: #eff3f4;
+  box-sizing: border-box;
 }
+
 
 .contents {
   width: 900px;

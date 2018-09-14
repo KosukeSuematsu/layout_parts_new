@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charsetUTF-8";
 
 /* 回答はここに書いてね */
 
@@ -7,7 +7,7 @@
   margin: 0 auto;
   overflow: hidden;
   width: 500px;
-  height: 300px;
+  height: 333px;
   cursor: pointer;
 }
 

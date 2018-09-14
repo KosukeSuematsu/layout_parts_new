@@ -1,12 +1,24 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q6__box__text {
+
+.q6__box__text-align {
   text-align: center;
+}
+
+.q6__box__text-align p {
+  display: inline-block;
+  width: 90px;
+  background-color: #e6f2ff;
+  padding: 10px 0px 10px 0px;
+}
+
+.q6__box__text__margin {
+  margin: 0 auto;
   width: 90px;
   padding: 10px 0px 10px 0px;
   background-color: #e6f2ff;
-  margin: auto;
+  text-align: center;
 }
 
 .container--q6--around {

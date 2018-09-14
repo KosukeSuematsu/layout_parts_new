@@ -2,12 +2,19 @@
 
 /* 回答はここに書いてね */
 
-.q3_th_parent {
+.q3_table {
   margin: 0 auto;
+  table-layout: fixed;
 }
+
+/*テーブルセルの配色設定*/
+.q3_table tr:nth-child(1){ background: #2244aa;}
+.q3_table tr:nth-child(2n+3){ background: #ecf1f2;}
+.q3_table tr:nth-child(2n){ background: white;}
+.q3_table tr:nth-child(5){ border-bottom: dashed #000 2px;}
+tr th:nth-child(1){ background-color: #2244aa;}
 
 .q3_th_child {
-  background-color: #2244aa;
   padding-top: 10px;
   padding-bottom: 10px;
   border: solid #dedede 1px;
@@ -16,9 +23,8 @@
   line-height: 26px;
 }
 
-.q3_td_parent {
+.q3_th {
   text-align: center;
-  background-color: #2244aa;
   padding-top: 10px;
   padding-bottom: 10px;
   border: solid #dedede 1px;
@@ -27,18 +33,9 @@
   line-height: 26px;
 }
 
-.q3_td_child_common {
+tr td {
   text-align: center;
   font-size: 16px;
   line-height: 22px;
   border: solid #dedede 1px;
 }
-
-.border_dashed {
-  border-bottom: dashed #000 2px;
-}
-
-.table_gray {
-  background-color: #ecf1f2;
-} 
-/* 回答はここに書いてね */

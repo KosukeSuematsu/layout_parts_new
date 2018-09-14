@@ -1,134 +1,60 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+/*--------------------以下ボタンの共通設定項目--------------------*/
 
 .common_all {
   display: inline-block;
-  border-radius: 3px;
-  padding-right: 15px;
-  padding-left: 15px;
-  border-radius: 3px;
   margin-left: 10px;
   cursor: pointer;
-}
-
-.content_small:last-child {
-  margin-left: 0px;
-}
-
-.child_common_small {
   color: white;
-  background: #00bcd4;/*ボタン色*/
-  font-size: 16px;
-  line-height: 26px;
-  height: 26px;
 }
 
-.child_error_small {
-  color: white;
-  background: #ff4081;/*ボタン色*/
-  font-size: 16px;
-  line-height: 26px;
-  height: 26px;
+.common_all:nth-child(2) {
+  background: #00bcd4;
 }
-
-.child_disabled_small {
-  color: white;
-  background: #e5e5e5;/*ボタン色*/
-  font-size: 16px;
-  line-height: 26px;
-  height: 26px;
+.common_all:nth-child(3) {
+  background: #ff4081;
 }
-
-.child_shadow_small {
+.common_all:nth-child(4) {
+  background: #e5e5e5;
+}
+.common_all:nth-child(5) {
   color: #222;
   box-shadow: 0px 1px 6px rgba(0, 0, 0,.12);
+}
+
+/*--------------------以下最上部のボタンの設定項目--------------------*/
+
+.content_small .common_all {
+  padding: 0px 15px;
   font-size: 16px;
   line-height: 26px;
   height: 26px;
+  border-radius: 3px;
 }
 
+/*--------------------以下中央部のボタンの設定項目--------------------*/
 
-.content_middle:last-child {
-  margin-right: 0px;
-}
-
-.child_common_middle {
-  color: white;
-  background: #00bcd4;/*ボタン色*/
+.content_middle .common_all {
+  padding: 0px 20px;
   font-size: 20px;
   line-height: 32px;
   height: 32px;
-  padding: 0px 20px;
+  border-radius: 5px;
 }
-
-.child_error_middle {
-  color: white;
-  background: #ff4081;/*ボタン色*/
-  font-size: 20px;
-  line-height: 32px;
-  height: 32px;
-  padding: 0px 20px;
-}
-
-.child_disabled_middle {
-  color: white;
-  background: #e5e5e5;/*ボタン色*/
-  font-size: 20px;
-  line-height: 32px;
-  height: 32px;
-  padding: 0px 20px;
-}
-
-.child_shadow_middle {
-  color: #222;
-  box-shadow: 0px 1px 6px rgba(0, 0, 0,.12);
-  font-size: 20px;
-  line-height: 32px;
-  height: 32px;
-  padding: 0px 20px;
-}
+/*--------------------以下最下部のボタンの設定項目--------------------*/
 
 
-.content_large:last-child {
-  margin-right: 0px;
-}
-
-.child_common_large {
-  color: white;
-  background: #00bcd4;/*ボタン色*/
+.content_large .common_all {
+  padding: 0px 25px;
   font-size: 24px;
   line-height: 38px;
   height: 38px;
-  padding: 0px 25px;
+  border-radius: 7px;
 }
 
-.child_error_large {
-  color: white;
-  background: #ff4081;/*ボタン色*/
-  font-size: 24px;
-  line-height: 38px;
-  height: 38px;
-  padding: 0px 25px;
-}
-
-.child_disabled_large {
-  color: white;
-  background: #e5e5e5;/*ボタン色*/
-  font-size: 24px;
-  line-height: 38px;
-  height: 38px;
-  padding: 0px 25px;
-}
-
-.child_shadow_large {
-  color: #222;
-  box-shadow: 0px 1px 6px rgba(0, 0, 0,.12);
-  font-size: 24px;
-  line-height: 38px;
-  height: 38px;
-  padding: 0px 25px;
-}
+/*--------------------以下フォームの設定項目--------------------*/
 
 .form_wrapper {
   width: 700px;
@@ -292,6 +218,14 @@ select {
 
 .q8__input--init {
   border: none;
+  outline: none;
+  /*border: 1px solid #aaa;
+  -webkit-transition: all .3s;
+  transition: all .3s;*/
+}
+
+.q8__input:focus {
+  box-shadow: 0 0 7px #00BCD4;
 }
 
 .q8__checkbox {
@@ -343,6 +277,11 @@ select {
     line-height: 26px;
 }
 
+.q8__main__bottom__btn:active {
+  background-color: #FFF;
+  color: #00BCD4;
+}
+
 .q8__main__bottom {
     text-align: right;
 }
@@ -361,5 +300,8 @@ select {
   font-size: 12px;
   box-sizing: border-box;
   resize: none;
+}
+.q8__side__text:focus {
+    box-shadow: 0 0 7px #00BCD4;
 }
 /* 回答はここに書いてね */

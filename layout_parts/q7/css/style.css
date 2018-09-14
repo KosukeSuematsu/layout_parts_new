@@ -10,14 +10,14 @@
   visibility:hidden;
 }
 
-.float-text-a {
+.float-text:nth-child(1) {
   width: 205px;
   font-size: 16px;
   float: left;
   margin-right: 50px;
 }
 
-.float-text-b {
+.float-text:nth-child(2) {
   width: 225px;
   font-size: 16px;
   float: left;
@@ -36,7 +36,7 @@
 }
 
 .dtable_c:first-child {
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .kosuke_a {
@@ -44,23 +44,27 @@
   box-sizing: border-box;
 }
 
+.wrapper_inlineblock_item {
+  font-size: 0;
+}
+
 .inlineblock_item:first-child {
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .inlineblock_item {
   width: 225px;
   display: inline-block;
-  vertical-align: middle;
   box-sizing: border-box;
-  margin-left: 45px; /* 5px程の間隔がベースの状態で入っている。inline-blockの仕様? */
+  vertical-align: middle;
+  font-size: 16px;
+  margin-left: 50px;
 }
 
 .flex_box_wrapper {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  align-content: space-between;
 }
 
 .flex_box_text {
@@ -77,12 +81,12 @@
 }
 
 .inlineblock_margin:first-child {
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .is-full {
   overflow: hidden;
-  font-size: 0px;
+  font-size: 0;
 }
 
 .stable_inlineblock_margin {
