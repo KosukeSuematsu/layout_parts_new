@@ -2,14 +2,14 @@
 
 /* 回答はここに書いてね */
 
-table {
+.table_food {
   width: 100%;
   margin: 0 auto;
   table-layout: fixed;
 }
 
 /*テーブルセルの配色設定*/
-table th {
+.table_food th {
   background: #2244aa;
   text-align: center;
   padding-top: 10px;
@@ -20,11 +20,11 @@ table th {
   line-height: 26px;
 }
 
-table tr:nth-child(2n+1){
+.table_food tr:nth-child(2n+1){
   background: #ecf1f2;
 }
 
-table tr:last-child{
+.table_food tr:last-child{
   border-top: dashed #000 2px;
 }
 

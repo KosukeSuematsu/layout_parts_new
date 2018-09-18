@@ -11,16 +11,16 @@
 }
 
 /*↓↓↓↓ボタンのカラーオプション↓↓↓↓*/
-.blue {
+.common {
   background: #00bcd4;
 }
-.red {
+.error {
   background: #ff4081;
 }
-.gray {
+.disabled {
   background: #e5e5e5;
 }
-.white{
+.shadow{
   color: #222;
   box-shadow: 0px 1px 6px rgba(0, 0, 0,.12);
 }
